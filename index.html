@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cek Kelulusan Siswa</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>Cek Kelulusan Siswa</h2>
+
+        <p class="subtitle">Masukkan nilai kamu untuk melihat hasil kelulusan.</p>
+        <img src="logo tb.png" alt="Gambar Sekolah" class="school-image">
+        <label for="nama">Nama Siswa</label>
+        <input type="text" id="nama" placeholder="Contoh: Budi">
+        <label for="kelas">Kelas Siswa</label>
+        <input type="text" id="kelas" placeholder="Contoh: X RPL 1">
+        <label for="nilai">Nilai Siswa</label>
+        <input type="number" id="nilai" placeholder="Contoh: 85">
+         
+
+        <button onclick="cekKelulusan()">Cek Kelulusan</button>
+
+        <div class="hasil-box">
+            <p id="hasil"></p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
